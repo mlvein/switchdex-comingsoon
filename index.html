@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <title>SwitchDex - Coming Soon</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Daily Token">
+        <meta name="author" content="Melvin Alvarez">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,600" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/favicon.png">
+    </head>
+    
+    <body>
+        <div class="container">
+            <img class="logo" src="https://switchdex.ag/assets/logo_med.svg">
+            <p class="coming-soon">Coming Soon</p>
+            <div id="countdown-timer"></div>
+            <div id="socials">
+                <a href="https://twitter.com/ethershiftco" target="_blank"><img class="twitter" src="https://switchdex.ag/assets/icon-twitter.svg"></a>
+                <a href="https://t.me/ethershiftco" target="_blank"><img class="telegram" src="https://switchdex.ag/assets/icon-telegram.svg"></a>
+            </div>
+            <div>
+            <img class="switchdex-macbook" src="https://switchdex.ag/assets/switchdex_macbook.png" alt="switchdex macbook screen">
+                <p class="info">
+                <span class="info-center"> <strong>SwitchDex</strong> is an easy to use decentralized exchange that runs on the Ethereum blockchain.</span>
+                <br/><br/>
+                <span class="highlight">*</span> SwitchDex charges a <strong>.2%</strong> taker fee, and deposits, withdraws, placing an order, & canceling orders are free!
+                <br/><br/>
+                <span class="highlight">*</span> SwitchDex offers a one time flat fee amount for fee free trading! For the entire month of March 
+                (after we launch), any user can pay <strong>$10</strong> and lock in fee free trading on an address forever! This 
+                fee will increase monthly and will top out at <strong>$100</strong> in December 2019. 
+                </span>
+                
+                <br/><br/>
+                
+                <span class="center">
+                <strong>100%</strong> of all fees collected by <strong>SwitchDex</strong> will be airdropped to <strong>ESH</strong> and <strong>SDEX</strong> holders. 
+                </span>
+                <br/>
+                <span class="center">
+                <strong>50%</strong> will be airdropped to <strong>ESH</strong> holders.
+                </span>
+                <br/>
+                <span class="center">
+                <strong>50%</strong> will be airdropped to <strong>SDEX</strong> holders.
+                </span>
+                
+                <br/>
+                <span class="center"><strong>SwitchDex token</strong></span>
+                <br/>
+                <span class="center">
+                <strong>Contract:</strong> 0x77678CFD0f2B55152aDC6599DB9F988AB28D72F2
+                <br/><br/>
+                <strong>Ticker:</strong> SDEX
+                <br/>
+                <strong>Decimals:</strong> 18
+                <br/>
+                <strong>200</strong> SwitchDex (SDEX) max supply 
+                <br/>
+                <strong>100</strong> SwitchDex (SDEX) sold in private round. <em>SOLD OUT!</em>
+                <br/>
+                <strong>50</strong> SwitchDex (SDEX) allocated for marketing, advisors, partnerships, team, site maintenance/updates etc. 
+                <br/>
+                <strong>50</strong> SwitchDex (SDEX) allocated for future expenses, team, etc with an 18 month lock up period!
+                <br/><br/>
+                </span>
+                
+                <span class="center">
+                Each <strong>SDEX</strong> token represents <strong>.25%</strong> of the gross fees collected by <strong>SwitchDex</strong>. Each month, 
+                <strong>50%</strong> of all fees collected by <strong>SwitchDex</strong> will be airdropped to <strong>SDEX</strong> holders according 
+                to the <strong>%</strong> of the supply they own.
+                </span>
+                </p>
+            </div>
+            <div class="gradient-line-mobile"></div>
+        </div>
+        
+        <div class="gradient-line"></div>
+        
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("March 4, 2019 12:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get todays date and time
+              var now = new Date().getTime();
+            
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+            
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              // Display result
+              document.getElementById("countdown-timer").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+            
+              // when countdown ends
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown-timer").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,301 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: #13222B;
+}
+
+p {
+    color: #DDDDDD;
+}
+
+    .highlight {
+        color: #23A3E8;
+    }
+    
+    .center {
+        text-align: center;
+        display: inherit;
+    }
+    
+.coming-soon {
+    font-size: 40px;
+    color: #DDDDDD;
+    text-align: center;
+    font-weight: 200;
+}
+
+#countdown-timer {
+    position: relative;
+    text-align: center;
+    font-size: 5em;
+    top: -40px;
+    font-weight: 200;
+    color: #DDDDDD;
+}
+
+#socials {
+    position: relative;
+    margin: 0 auto;
+    width: 120px;
+    top: 0px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+    .telegram,
+    .twitter{
+        height: 30px;
+        opacity: .8;
+    }
+    
+        .telegram:hover,
+        .twitter:hover {
+            opacity: 1;
+            transition: .2s;
+        }
+    
+
+.gradient-line {
+    background-image: url("https://switchdex.ag/assets/gradient-line.svg");
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    height: 74px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: none;
+}
+
+    .gradient-line-mobile {
+        background-image: url("https://switchdex.ag/assets/gradient-line.svg");
+        position: absolute;
+        top: 380px;
+        z-index: 1;
+        height: 74px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        display: block;
+    }
+
+.container {
+    width: 700px;
+    top: 40px;
+    position: relative;
+    margin: 0 auto;
+}
+
+    .logo {
+        position: relative;
+        display: inherit;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .switchdex-macbook {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        top: -100px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    
+    
+    .info {
+        position: relative;
+        width: 76%;
+        top: -120px;
+        margin: 0 auto;
+        font-size: 1.6em;
+    }
+    
+        .info-center {
+            text-align: center;
+        }
+
+
+
+
+/* Larger than phone */
+@media (min-width: 550px) {
+    
+    .coming-soon {
+        font-size: 24px;
+        color: #DDDDD;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    #countdown-timer {
+        position: relative;
+        text-align: center;
+        font-size: 3em;
+        top: -10px;
+        font-weight: 200;
+        color: #DDDDDD;
+    }
+    
+    #socials {
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+    .telegram,
+    .twitter{
+        height: 18px;
+        opacity: .5;
+    }
+    
+        .telegram:hover,
+        .twitter:hover {
+            opacity: 1;
+            transition: .2s;
+        }
+    
+    .gradient-line-mobile {
+        display: none;
+    }
+    
+    .gradient-line {
+        position: absolute;
+        top: 400px;
+        z-index: 1;
+        height: 74px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .container {
+        width: 900px;
+        position: relative;
+        margin: 0 auto;
+        top: 40px;
+    }
+
+    .logo {
+        position: relative;
+        width: 30%;
+    }
+
+    .switchdex-macbook {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        top: -100px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    
+    .info {
+        position: relative;
+        width: 70%;
+        top: -160px;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+    
+    
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+    .coming-soon {
+        font-size: 24px;
+        color: #DDDDD;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    #countdown-timer {
+        position: relative;
+        text-align: center;
+        font-size: 3em;
+        top: -10px;
+        font-weight: 200;
+        color: #DDDDDD;
+    }
+    
+    #socials {
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+    .telegram,
+    .twitter{
+        height: 18px;
+        opacity: .5;
+    }
+    
+        .telegram:hover,
+        .twitter:hover {
+            opacity: 1;
+            transition: .2s;
+        }
+    
+    .gradient-line-mobile {
+        display: none;
+    }
+    
+    .gradient-line {
+        position: absolute;
+        top: 400px;
+        z-index: 1;
+        height: 74px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .container {
+        width: 900px;
+        position: relative;
+        margin: 0 auto;
+        top: 40px;
+    }
+
+    .logo {
+        position: relative;
+        width: 20%;
+    }
+
+    .switchdex-macbook {
+        max-width: 100%;
+        position: relative;
+        display: block;
+        top: -100px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    
+    .info {
+        position: relative;
+        width: 70%;
+        top: -160px;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+    
+}
